@@ -1,0 +1,51 @@
+#header{
+    text-align: center;
+    font-size: 30px;
+    padding: 2%;
+    width: 50%;
+    color: white;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#body {
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 54%;
+    margin: auto;
+    height: 360px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#articles{
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 54%;
+    margin: auto;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+input, select {
+    margin-left: 10px;
+    margin-right:10px;
+    width:96%;
+    height: 20px;
+   
+}
+
+p{
+    margin-left: 10px;
+}
+
+button{
+    margin-left: 10px;
+    width:100px;
+    height:30px;
+}
