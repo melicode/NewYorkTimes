@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>New York Times Search</title>
-        <script href="assets/css/style.css" type="text/css"></script>
-    </head>
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>New York Times Search</title>
+       <script href="assets/css/style.css" type="text/css"></script>
+   </head>
 
-    <body>
-        <div id="header">
-            <h2> New York Times Search</h2>
-        </div>
+   <body>
+       <div id="header">
+           <h2> New York Times Search</h2>
+       </div>
 
-        <div id="body">
-            <div>
-                <p>Search Term:</p>
-                <form>
-                    <input type="text" name="searchTerm">
-                </form>
-            </div>
+       <div id="body">
+           <div>
+               <p>Search Term:</p>
+               <form>
+                   <input type="text" name="searchTerm">
+               </form>
+           </div>
 
-            <div>
-                <p>Number of Records to Retrieve:</p>
-                <select>
-                    <option value="one">1</option>
-                    <option value="five">5</option>
-                    <option value="ten">10</option>
-                </select>
-            </div>
+           <div>
+               <p>Number of Records to Retrieve:</p>
+               <select>
+                   <option value="one">1</option>
+                   <option value="five">5</option>
+                   <option value="ten">10</option>
+               </select>
+           </div>
 
-            <div>
-                <p>Start Year (Optional): </p>
-                <form>
-                    <input type="text" name="searchTerm">
-                </form>
-            </div>
+           <div>
+               <p>Start Year (Optional): </p>
+               <form>
+                   <input type="text" name="searchTerm">
+               </form>
+           </div>
 
-            <div>
-                <p>End Year (Optional):</p>
-                <form>
-                    <input type="text" name="searchTerm">
-                </form>
-            </div>
-            <br>
+           <div>
+               <p>End Year (Optional):</p>
+               <form>
+                   <input type="text" name="searchTerm">
+               </form>
+           </div>
+           <br>
 
-            <div>
-                <input type="search" value="Search">
-                <input type="clear" value="Clear">
-            </div>
-        </div>
+           <div>
+               <button type="button" id="search">Search</button>
+               <button type="button" id="clear">Clear</button>
+           </div>
+       </div>
 
-        <div id="articles"></div>
-
-        <script src="assets/javascript/app.js" type="text/javascript"></script>
-    </body>
+       <div id="articles"></div>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="assets/javascript/app.js" type="text/javascript"></script>
+   </body>
